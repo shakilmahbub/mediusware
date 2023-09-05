@@ -21,6 +21,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'account_type',
+        'balance'
     ];
 
     /**
@@ -41,5 +43,10 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
+    ];
+
+    public static $enumAccount_type = [
+        'active' => 'Active',
+        'inactive' => 'Inactive',
     ];
 }
