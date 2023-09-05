@@ -9,3 +9,6 @@
 ## About Project
 <p>This project is a coding test for mediusware.com</p>
 ## About Laravel
+
+## clone form git
+## create a database and migrate
